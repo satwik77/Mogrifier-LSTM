@@ -10,13 +10,6 @@ PyTorch implementation of the paper "Mogrifier LSTM", Gábor Melis and Tomáš K
 
 #### Setup
 
-First create the required directories by running setup.sh
-
-```shell
-chmod a+x setup.sh
-./setup.sh
-```
-
 Install VirtualEnv using the following (optional):
 
 ```shell
