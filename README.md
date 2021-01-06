@@ -78,5 +78,7 @@ Other hypeparameters can be found in the file src/args.py. Some important hyperp
 - `heads:` Also applicable for SAN only, specifies the number of attention heads to use.
 - `depth:` Number of layers that you would like to initialize your network with.
 
+Details of other arguments can be found in `src/args.py`.
+
 
 
