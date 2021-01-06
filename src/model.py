@@ -55,8 +55,6 @@ class LanguageModel(nn.Module):
 			self.model = TransformerModel(self.voc.nwords, self.config.d_model, self.config.heads, self.config.d_ffn, self.config.depth, self.config.dropout).to(self.device)
 		elif self.config.model_type == 'Mogrify':
 			self.model = MogrifierLSTMModel(self.config.cell_type, self.voc.nwords, self.config.emb_size, self.config.hidden_size, self.config.depth, self.config.dropout, self.config.tied).to(self.device)
-		elif self.config.model_type == 'SARNN':
-			self.model = SARNNModel(self.config.cell_type, self.voc.nwords, self.config.emb_size, self.config.hidden_size, self.config.depth, self.config.dropout, self.config.tied).to(self.device)
 
 
 	def _initialize_optimizer(self):
