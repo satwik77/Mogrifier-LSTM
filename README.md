@@ -1,7 +1,7 @@
 <h2 align="center">
     Mogrifier LSTM
 </h2>
-PyTorch implementation of the paper *Mogrifier LSTM, Gábor Melis and Tomáš Kočiský and Phil Blunsom, International Conference on Learning Representations, 2020.* [[pdf](https://openreview.net/pdf?id=SJe5P6EYvS)]
+PyTorch implementation of the paper "Mogrifier LSTM", Gábor Melis and Tomáš Kočiský and Phil Blunsom, International Conference on Learning Representations, 2020. https://openreview.net/pdf?id=SJe5P6EYvS
 
 #### Dependencies
 
